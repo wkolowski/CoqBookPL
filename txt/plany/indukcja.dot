@@ -1,0 +1,57 @@
+digraph
+{
+  node[shape=rectangle, color=green]
+  enumeracje
+  parametry
+  indeksy
+  "argumenty nieindukcyjne"
+  "argumenty indukcyjne"
+  "indukcja wzajemna"
+
+  node[shape=rectangle, color=red]
+  "argumenty interwałowe"
+  "indukcja-indukcja"
+  "indukcja-rekursja"
+  "indeksowana indukcja-rekursja"
+  "indukcja-indukcja-rekursja"
+		
+
+  // Parametry nie mają sensu, jeżeli nie możemy użyć
+  // ich jako argumentów jakiegoś konstruktora (ale
+  // uwaga: typy fantomowe).
+  enumeracje			->
+  {
+    "argumenty nieindukcyjne"
+    "argumenty indukcyjne"
+    "argumenty interwałowe"
+
+    parametry
+    indeksy
+  }
+
+  "argumenty indukcyjne"	->
+  {
+    "indukcja wzajemna"
+    "indukcja-rekursja"
+  }
+
+  "indukcja wzajemna"		-> "indukcja-indukcja"
+
+  indeksy			->
+  {
+    "indukcja-indukcja"
+    "indeksowana indukcja-rekursja"
+  }
+
+  "indukcja-indukcja"		-> "indukcja-indukcja-rekursja"
+
+  "indukcja-rekursja"		->
+  {
+    "indeksowana indukcja-rekursja"
+  }
+
+  "indeksowana indukcja-rekursja" -> "indukcja-indukcja-rekursja"
+
+  "indukcja-indukcja-rekursja"	-> "wyższa indukcja-indukcja-rekursja"
+  "argumenty interwałowe"	-> "wyższa indukcja-indukcja-rekursja"
+}
