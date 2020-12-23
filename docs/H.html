@@ -28,11 +28,17 @@
 </div>
 
 <div class="doc">
-<a id="lab668"></a><h1 class="section">Równość - powtórka</h1>
+Ten rozdział będzie o tym, jak należy myśleć o równości, a w
+    szczególności o dowodach równości. Przez rozszerzenie będą
+    nas interesować także nierówności oraz dowody nierówności.
 
 <div class="paragraph"> </div>
 
-<a id="lab669"></a><h1 class="section">Ścieżki</h1>
+    Niestety jeszcze nic na ten temat nie napisałem, więc musisz
+    póki co zadowolić się samym kodem. 
+<div class="paragraph"> </div>
+
+<a id="lab547"></a><h1 class="section">Ścieżki</h1>
 
 </div>
 <div class="code">
@@ -87,7 +93,7 @@
 </div>
 
 <div class="doc">
-<a id="lab670"></a><h1 class="section">Równość a ścieżki</h1>
+<a id="lab548"></a><h1 class="section">Równość a ścieżki</h1>
 
 </div>
 <div class="code">
@@ -114,11 +120,11 @@
 </div>
 
 <div class="doc">
-<a id="lab671"></a><h1 class="section">Ścieżki w typach induktywnych</h1>
+<a id="lab549"></a><h1 class="section">Ścieżki w typach induktywnych</h1>
 
 <div class="paragraph"> </div>
 
-<a id="lab672"></a><h2 class="section">Ścieżki między liczbami naturalnymi - rekurencyjnie</h2>
+<a id="lab550"></a><h2 class="section">Ścieżki między liczbami naturalnymi - rekurencyjnie</h2>
 
 </div>
 <div class="code">
@@ -182,7 +188,7 @@
 </div>
 
 <div class="doc">
-<a id="lab673"></a><h2 class="section">Ścieżki między liczbami naturalnymi - induktywnie</h2>
+<a id="lab551"></a><h2 class="section">Ścieżki między liczbami naturalnymi - induktywnie</h2>
 
 </div>
 <div class="code">
@@ -257,7 +263,7 @@ Jak powiedział śp. Stefan Kisielewski: "teoria typów bohatersko
 <span class="id" title="keyword">Module</span> <span class="id" title="var">nat_eq_rec_SProp</span>.<br/>
 
 <br/>
-<span class="id" title="keyword">Require</span> <span class="id" title="keyword">Import</span> <span class="id" title="var">G</span>.<br/>
+<span class="id" title="keyword">Require</span> <span class="id" title="keyword">Import</span> <span class="id" title="var">G2</span>.<br/>
 
 <br/>
 <span class="id" title="keyword">Fixpoint</span> <span class="id" title="var">code</span> (<span class="id" title="var">n</span> <span class="id" title="var">m</span> : <span class="id" title="var">nat</span>) : <span class="id" title="var">SProp</span> :=<br/>
@@ -306,7 +312,7 @@ Jak powiedział śp. Stefan Kisielewski: "teoria typów bohatersko
 </div>
 
 <div class="doc">
-<a id="lab674"></a><h2 class="section">Różność liczb naturalnych - rekurencyjnie</h2>
+<a id="lab552"></a><h2 class="section">Różność liczb naturalnych - rekurencyjnie</h2>
 
 </div>
 <div class="code">
@@ -436,7 +442,7 @@ A co to znaczy, że liczby naturalne nie są równe?
 </div>
 
 <div class="doc">
-<a id="lab675"></a><h2 class="section">Porządek <span class="inlinecode">&lt;=</span> na liczbach naturalnych</h2>
+<a id="lab553"></a><h2 class="section">Porządek <span class="inlinecode">&lt;=</span> na liczbach naturalnych</h2>
 
 </div>
 <div class="code">
@@ -445,7 +451,7 @@ A co to znaczy, że liczby naturalne nie są równe?
 <span class="id" title="keyword">Module</span> <span class="id" title="var">encodedecode1</span>.<br/>
 
 <br/>
-<span class="id" title="keyword">Require</span> <span class="id" title="keyword">Import</span> <span class="id" title="var">G</span>.<br/>
+<span class="id" title="keyword">Require</span> <span class="id" title="keyword">Import</span> <span class="id" title="var">G2</span>.<br/>
 
 <br/>
 <span class="id" title="keyword">Fixpoint</span> <span class="id" title="var">code</span> (<span class="id" title="var">n</span> <span class="id" title="var">m</span> : <span class="id" title="var">nat</span>) : <span class="id" title="var">SProp</span> :=<br/>
@@ -500,7 +506,7 @@ A co to znaczy, że liczby naturalne nie są równe?
 <span class="id" title="keyword">Module</span> <span class="id" title="var">encodedecode2</span>.<br/>
 
 <br/>
-<span class="id" title="keyword">Require</span> <span class="id" title="keyword">Import</span> <span class="id" title="var">G</span>.<br/>
+<span class="id" title="keyword">Require</span> <span class="id" title="keyword">Import</span> <span class="id" title="var">G2</span>.<br/>
 
 <br/>
 <span class="id" title="keyword">Fixpoint</span> <span class="id" title="var">code</span> (<span class="id" title="var">n</span> <span class="id" title="var">m</span> : <span class="id" title="var">nat</span>) : <span class="id" title="var">SProp</span> :=<br/>
@@ -596,7 +602,7 @@ A co to znaczy, że liczby naturalne nie są równe?
 </div>
 
 <div class="doc">
-<a id="lab676"></a><h2 class="section">Ścieżki między listami</h2>
+<a id="lab554"></a><h2 class="section">Ścieżki między listami</h2>
 
 </div>
 <div class="code">
@@ -717,7 +723,7 @@ Insajt, że o ja pierdole: jak się ma <span class="inlinecode"><span class="id
 </div>
 
 <div class="doc">
-<a id="lab677"></a><h2 class="section">Różność list - induktywnie</h2>
+<a id="lab555"></a><h2 class="section">Różność list - induktywnie</h2>
 
 </div>
 <div class="code">
@@ -959,7 +965,7 @@ Wnioski: próba użycia tutaj <span class="inlinecode"><span class="id" title="v
 </div>
 
 <div class="doc">
-<a id="lab678"></a><h2 class="section">Różność list - rekursywnie</h2>
+<a id="lab556"></a><h2 class="section">Różność list - rekursywnie</h2>
 
 </div>
 <div class="code">
@@ -988,7 +994,7 @@ Wnioski: próba użycia tutaj <span class="inlinecode"><span class="id" title="v
 </div>
 
 <div class="doc">
-<a id="lab679"></a><h2 class="section">Apartheid list (TODO)</h2>
+<a id="lab557"></a><h2 class="section">Apartheid list (TODO)</h2>
 
 </div>
 <div class="code">
@@ -999,11 +1005,11 @@ Wnioski: próba użycia tutaj <span class="inlinecode"><span class="id" title="v
 </div>
 
 <div class="doc">
-<a id="lab680"></a><h1 class="section">Ścieżki w typach koinduktywnych</h1>
+<a id="lab558"></a><h1 class="section">Ścieżki w typach koinduktywnych</h1>
 
 <div class="paragraph"> </div>
 
-<a id="lab681"></a><h2 class="section">Nierówność liczb konaturalnych</h2>
+<a id="lab559"></a><h2 class="section">Nierówność liczb konaturalnych</h2>
 
 </div>
 <div class="code">
@@ -1035,7 +1041,7 @@ Wnioski: próba użycia tutaj <span class="inlinecode"><span class="id" title="v
 </div>
 
 <div class="doc">
-<a id="lab682"></a><h2 class="section">Różność strumieni</h2>
+<a id="lab560"></a><h2 class="section">Różność strumieni</h2>
 
 </div>
 <div class="code">
@@ -1096,19 +1102,19 @@ Wnioski: próba użycia tutaj <span class="inlinecode"><span class="id" title="v
 </div>
 
 <div class="doc">
-<a id="lab683"></a><h1 class="section">Ścieżki między funkcjami</h1>
+<a id="lab561"></a><h1 class="section">Ścieżki między funkcjami</h1>
 
 <div class="paragraph"> </div>
 
-<a id="lab684"></a><h1 class="section">Ścieżki w uniwersum</h1>
+<a id="lab562"></a><h1 class="section">Ścieżki w uniwersum</h1>
 
 <div class="paragraph"> </div>
 
-<a id="lab685"></a><h2 class="section">Ćwiczenia</h2>
+<a id="lab563"></a><h2 class="section">Ćwiczenia</h2>
 
 <div class="paragraph"> </div>
 
-<a id="lab686"></a><h4 class="section">Ćwiczenie</h4>
+<a id="lab564"></a><h4 class="section">Ćwiczenie</h4>
 
 <div class="paragraph"> </div>
 
@@ -1144,7 +1150,7 @@ Wnioski: próba użycia tutaj <span class="inlinecode"><span class="id" title="v
 </div>
 
 <div class="doc">
-<a id="lab687"></a><h4 class="section">Ćwiczenie</h4>
+<a id="lab565"></a><h4 class="section">Ćwiczenie</h4>
 
 <div class="paragraph"> </div>
 
@@ -1175,7 +1181,7 @@ Wnioski: próba użycia tutaj <span class="inlinecode"><span class="id" title="v
 </div>
 
 <div class="doc">
-<a id="lab688"></a><h4 class="section">Ćwiczenie</h4>
+<a id="lab566"></a><h4 class="section">Ćwiczenie</h4>
 
 <div class="paragraph"> </div>
 
@@ -1209,7 +1215,7 @@ Wnioski: próba użycia tutaj <span class="inlinecode"><span class="id" title="v
 </div>
 
 <div class="doc">
-<a id="lab689"></a><h1 class="section">Protokoły różnicowe</h1>
+<a id="lab567"></a><h1 class="section">Protokoły różnicowe</h1>
 
 </div>
 <div class="code">
@@ -1339,7 +1345,7 @@ Protokół różnicowy dla funkcji mówi, dla których argumentów wyniki
 </div>
 
 <div class="doc">
-<a id="lab690"></a><h1 class="section">Izomorfizmy typów (TODO)</h1>
+<a id="lab568"></a><h1 class="section">Izomorfizmy typów (TODO)</h1>
 
 </div>
 <div class="code">
@@ -1409,7 +1415,7 @@ Protokół różnicowy dla funkcji mówi, dla których argumentów wyniki
 </div>
 
 <div class="doc">
-<a id="lab691"></a><h2 class="section">Produkty i sumy</h2>
+<a id="lab569"></a><h2 class="section">Produkty i sumy</h2>
 
 </div>
 <div class="code">
@@ -1525,7 +1531,7 @@ Trzeba przerobić rozdział o typach i funkcjach tak, żeby nie mieszać
 </div>
 
 <div class="doc">
-<a id="lab692"></a><h2 class="section">Liczby naturalne</h2>
+<a id="lab570"></a><h2 class="section">Liczby naturalne</h2>
 
 </div>
 <div class="code">
@@ -1560,7 +1566,7 @@ Trzeba przerobić rozdział o typach i funkcjach tak, żeby nie mieszać
 </div>
 
 <div class="doc">
-<a id="lab693"></a><h2 class="section">Listy</h2>
+<a id="lab571"></a><h2 class="section">Listy</h2>
 
 </div>
 <div class="code">
@@ -1603,7 +1609,7 @@ Trzeba przerobić rozdział o typach i funkcjach tak, żeby nie mieszać
 </div>
 
 <div class="doc">
-<a id="lab694"></a><h2 class="section">Strumienie</h2>
+<a id="lab572"></a><h2 class="section">Strumienie</h2>
 
 </div>
 <div class="code">
@@ -1638,7 +1644,7 @@ Jak można się domyślić po przykładach, charakterystyczne izomorfizmy
 </div>
 
 <div class="doc">
-<a id="lab695"></a><h2 class="section">Ciekawsze izomorfizmy</h2>
+<a id="lab573"></a><h2 class="section">Ciekawsze izomorfizmy</h2>
 
 <div class="paragraph"> </div>
 
@@ -1913,7 +1919,13 @@ Jak trudno jest z podstawowych izomorfizmów dla produktów i sum
 <div class="code">
 
 <br/>
-<span class="id" title="keyword">Require</span> <span class="id" title="keyword">Import</span> <span class="id" title="var">vec</span>.<br/>
+<span class="id" title="keyword">Inductive</span> <span class="id" title="var">vec</span> (<span class="id" title="var">A</span> : <span class="id" title="keyword">Type</span>) : <span class="id" title="var">nat</span> -&gt; <span class="id" title="keyword">Type</span> :=<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;| <span class="id" title="var">vnil</span> : <span class="id" title="var">vec</span> <span class="id" title="var">A</span> 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;| <span class="id" title="var">vcons</span> : <span class="id" title="var">A</span> -&gt; <span class="id" title="keyword">forall</span> {<span class="id" title="var">n</span> : <span class="id" title="var">nat</span>}, <span class="id" title="var">vec</span> <span class="id" title="var">A</span> <span class="id" title="var">n</span> -&gt; <span class="id" title="var">vec</span> <span class="id" title="var">A</span> (<span class="id" title="var">S</span> <span class="id" title="var">n</span>).<br/>
+
+<br/>
+<span class="id" title="var">Arguments</span> <span class="id" title="var">vnil</span>  {<span class="id" title="var">A</span>}.<br/>
+<span class="id" title="var">Arguments</span> <span class="id" title="var">vcons</span> {<span class="id" title="var">A</span>} <span class="id" title="var">_</span> {<span class="id" title="var">n</span>} <span class="id" title="var">_</span>.<br/>
 
 <br/>
 <span class="id" title="keyword">Definition</span> <span class="id" title="var">vlist</span> (<span class="id" title="var">A</span> : <span class="id" title="keyword">Type</span>) : <span class="id" title="keyword">Type</span> :=<br/>
@@ -1942,21 +1954,10 @@ Jak trudno jest z podstawowych izomorfizmów dla produktów i sum
 &nbsp;&nbsp;<span class="id" title="var">toList</span> (<span class="id" title="var">projT2</span> <span class="id" title="var">v</span>).<br/>
 
 <br/>
-<span class="id" title="keyword">Lemma</span> <span class="id" title="var">eq_head_tail</span> :<br/>
-&nbsp;&nbsp;<span class="id" title="keyword">forall</span> {<span class="id" title="var">A</span> : <span class="id" title="keyword">Type</span>} {<span class="id" title="var">n</span> : <span class="id" title="var">nat</span>} (<span class="id" title="var">v1</span> <span class="id" title="var">v2</span> : <span class="id" title="var">vec</span> <span class="id" title="var">A</span> (<span class="id" title="var">S</span> <span class="id" title="var">n</span>)),<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;<span class="id" title="var">head</span> <span class="id" title="var">v1</span> = <span class="id" title="var">head</span> <span class="id" title="var">v2</span> -&gt; <span class="id" title="var">tail</span> <span class="id" title="var">v1</span> = <span class="id" title="var">tail</span> <span class="id" title="var">v2</span> -&gt; <span class="id" title="var">v1</span> = <span class="id" title="var">v2</span>.<br/>
-<span class="id" title="keyword">Proof</span>.<br/>
-&nbsp;&nbsp;<span class="id" title="tactic">intros</span> <span class="id" title="var">A</span> <span class="id" title="var">n</span> <span class="id" title="var">v1</span> <span class="id" title="var">v2</span>.<br/>
-&nbsp;&nbsp;<span class="id" title="tactic">dependent</span> <span class="id" title="tactic">destruction</span> <span class="id" title="var">v1</span>.<br/>
-&nbsp;&nbsp;<span class="id" title="tactic">dependent</span> <span class="id" title="tactic">destruction</span> <span class="id" title="var">v2</span>.<br/>
-&nbsp;&nbsp;<span class="id" title="var">cbn</span>. <span class="id" title="tactic">destruct</span> 1, 1. <span class="id" title="tactic">reflexivity</span>.<br/>
-<span class="id" title="keyword">Qed</span>.<br/>
-
-<br/>
 <span class="id" title="keyword">Lemma</span> <span class="id" title="var">transport_cons</span> :<br/>
 &nbsp;&nbsp;<span class="id" title="keyword">forall</span> {<span class="id" title="var">A</span> : <span class="id" title="keyword">Type</span>} {<span class="id" title="var">n</span> <span class="id" title="var">m</span> : <span class="id" title="var">nat</span>} (<span class="id" title="var">h</span> : <span class="id" title="var">A</span>) (<span class="id" title="var">t</span> : <span class="id" title="var">vec</span> <span class="id" title="var">A</span> <span class="id" title="var">n</span>) (<span class="id" title="var">p</span> : <span class="id" title="var">n</span> = <span class="id" title="var">m</span>),<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;<span class="id" title="var">transport</span> (<span class="id" title="keyword">fun</span> <span class="id" title="var">n</span> : <span class="id" title="var">nat</span> =&gt; <span class="id" title="var">vec</span> <span class="id" title="var">A</span> (<span class="id" title="var">S</span> <span class="id" title="var">n</span>)) <span class="id" title="var">p</span><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(<span class="id" title="var">h</span> :: <span class="id" title="var">t</span>) = <span class="id" title="var">h</span> :: <span class="id" title="var">transport</span> (<span class="id" title="keyword">fun</span> <span class="id" title="var">n</span> : <span class="id" title="var">nat</span> =&gt; <span class="id" title="var">vec</span> <span class="id" title="var">A</span> <span class="id" title="var">n</span>) <span class="id" title="var">p</span> <span class="id" title="var">t</span>.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(<span class="id" title="var">vcons</span> <span class="id" title="var">h</span> <span class="id" title="var">t</span>) = <span class="id" title="var">vcons</span> <span class="id" title="var">h</span> (<span class="id" title="var">transport</span> (<span class="id" title="keyword">fun</span> <span class="id" title="var">n</span> : <span class="id" title="var">nat</span> =&gt; <span class="id" title="var">vec</span> <span class="id" title="var">A</span> <span class="id" title="var">n</span>) <span class="id" title="var">p</span> <span class="id" title="var">t</span>).<br/>
 <span class="id" title="keyword">Proof</span>.<br/>
 &nbsp;&nbsp;<span class="id" title="tactic">destruct</span> <span class="id" title="var">p</span>. <span class="id" title="var">cbn</span>. <span class="id" title="tactic">reflexivity</span>.<br/>
 <span class="id" title="keyword">Qed</span>.<br/>
@@ -1992,12 +1993,12 @@ Wnioski: da się zrobić trochę...
 <br/>
 <span class="id" title="keyword">Fixpoint</span> <span class="id" title="var">nat_vec</span> {<span class="id" title="var">n</span> : <span class="id" title="var">nat</span>} (<span class="id" title="var">arg</span> : <span class="id" title="var">nat</span>) : <span class="id" title="var">vec</span> <span class="id" title="var">nat</span> (<span class="id" title="var">S</span> <span class="id" title="var">n</span>) :=<br/>
 <span class="id" title="keyword">match</span> <span class="id" title="var">n</span> <span class="id" title="keyword">with</span><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;| 0 =&gt; <span class="id" title="var">arg</span> :: <span class="id" title="var">vnil</span><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;| 0 =&gt; <span class="id" title="var">vcons</span> <span class="id" title="var">arg</span> <span class="id" title="var">vnil</span><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;| <span class="id" title="var">S</span> <span class="id" title="var">n'</span> =&gt;<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="id" title="keyword">let</span><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(<span class="id" title="var">arg1</span>, <span class="id" title="var">arg2</span>) := <span class="id" title="var">goto</span> <span class="id" title="var">arg</span><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="id" title="tactic">in</span><br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="id" title="var">arg1</span> :: <span class="id" title="var">nat_vec</span> <span class="id" title="var">arg2</span><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="id" title="var">vcons</span> <span class="id" title="var">arg1</span> (<span class="id" title="var">nat_vec</span> <span class="id" title="var">arg2</span>)<br/>
 <span class="id" title="keyword">end</span>.<br/>
 
 <br/>
@@ -2009,6 +2010,18 @@ Wnioski: da się zrobić trochę...
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| <span class="id" title="var">None</span> =&gt; <span class="id" title="var">Some</span> <span class="id" title="var">h</span><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| <span class="id" title="var">Some</span> <span class="id" title="var">r</span> =&gt; <span class="id" title="var">Some</span> (<span class="id" title="var">comefrom</span> (<span class="id" title="var">h</span>, <span class="id" title="var">r</span>))<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="id" title="keyword">end</span><br/>
+<span class="id" title="keyword">end</span>.<br/>
+
+<br/>
+<span class="id" title="keyword">Definition</span> <span class="id" title="var">head</span> {<span class="id" title="var">A</span> : <span class="id" title="keyword">Type</span>} {<span class="id" title="var">n</span> : <span class="id" title="var">nat</span>} (<span class="id" title="var">v</span> : <span class="id" title="var">vec</span> <span class="id" title="var">A</span> (<span class="id" title="var">S</span> <span class="id" title="var">n</span>)) : <span class="id" title="var">A</span> :=<br/>
+<span class="id" title="keyword">match</span> <span class="id" title="var">v</span> <span class="id" title="keyword">with</span><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;| <span class="id" title="var">vcons</span> <span class="id" title="var">h</span> <span class="id" title="var">_</span> =&gt; <span class="id" title="var">h</span><br/>
+<span class="id" title="keyword">end</span>.<br/>
+
+<br/>
+<span class="id" title="keyword">Definition</span> <span class="id" title="var">tail</span> {<span class="id" title="var">A</span> : <span class="id" title="keyword">Type</span>} {<span class="id" title="var">n</span> : <span class="id" title="var">nat</span>} (<span class="id" title="var">v</span> : <span class="id" title="var">vec</span> <span class="id" title="var">A</span> (<span class="id" title="var">S</span> <span class="id" title="var">n</span>)) : <span class="id" title="var">vec</span> <span class="id" title="var">A</span> <span class="id" title="var">n</span> :=<br/>
+<span class="id" title="keyword">match</span> <span class="id" title="var">v</span> <span class="id" title="keyword">with</span><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;| <span class="id" title="var">vcons</span> <span class="id" title="var">_</span> <span class="id" title="var">t</span> =&gt; <span class="id" title="var">t</span><br/>
 <span class="id" title="keyword">end</span>.<br/>
 
 <br/>
@@ -2035,7 +2048,7 @@ Wnioski: da się zrobić trochę...
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="id" title="var">cbn</span>. <span class="id" title="tactic">reflexivity</span>.<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="id" title="tactic">intro</span>.<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="id" title="tactic">refine</span> (<span class="id" title="keyword">match</span> <span class="id" title="var">b</span> <span class="id" title="keyword">with</span> <span class="id" title="var">vcons</span> <span class="id" title="var">_</span> <span class="id" title="var">_</span> =&gt; <span class="id" title="var">_</span> <span class="id" title="keyword">end</span>).<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="id" title="tactic">destruct</span> <span class="id" title="var">n</span>; <span class="id" title="var">cbn</span>; <span class="id" title="tactic">f_equal</span>.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="id" title="tactic">destruct</span> <span class="id" title="var">n0</span>; <span class="id" title="var">cbn</span>; <span class="id" title="tactic">f_equal</span>.<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="id" title="tactic">refine</span> (<span class="id" title="keyword">match</span> <span class="id" title="var">v</span> <span class="id" title="keyword">with</span> <span class="id" title="var">vnil</span> =&gt; <span class="id" title="var">_</span> <span class="id" title="keyword">end</span>). <span class="id" title="tactic">reflexivity</span>.<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="id" title="tactic">red</span>. <span class="id" title="tactic">trivial</span>.<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;<span class="id" title="tactic">eapply</span> <span class="id" title="var">iso_trans</span>.<br/>
@@ -2129,7 +2142,7 @@ Wnioski: da się zrobić trochę...
 ... ale <span class="inlinecode"><span class="id" title="var">nat</span></span> <span class="inlinecode">~</span> <span class="inlinecode"><span class="id" title="var">list</span></span> <span class="inlinecode"><span class="id" title="var">nat</span></span> jest dość trudne. 
 <div class="paragraph"> </div>
 
-<a id="lab696"></a><h1 class="section">Dziwne aksjomaty i płynące z nich logiki (TODO)</h1>
+<a id="lab574"></a><h1 class="section">Dziwne aksjomaty i płynące z nich logiki (TODO)</h1>
 
 </div>
 <div class="code">
@@ -2168,7 +2181,7 @@ Wnioski: da się zrobić trochę...
 </div>
 
 <div class="doc">
-<a id="lab697"></a><h1 class="section">Parametryczność, a raczej jej brak (TODO)</h1>
+<a id="lab575"></a><h1 class="section">Parametryczność, a raczej jej brak (TODO)</h1>
 
 </div>
 <div class="code">
